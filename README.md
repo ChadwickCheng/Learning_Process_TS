@@ -8,7 +8,7 @@
 4. 创建 tsconfig.json 文件：在你的项目根目录下创建一个 tsconfig.json 文件，这个文件用于配置 TypeScript 编译器。
 
 一个基本的 tsconfig.json 文件内容如下：
-
+```
 {
 
  "compilerOptions": {
@@ -22,6 +22,7 @@
  }
 
 }
+```
 
 1. 编译 TypeScript：在 VS Code 的终端中运行 `tsc` 命令，编译你的 TypeScript 代码。
 2. 运行 JavaScript：使用 Node.js 运行编译后的 JavaScript 代码，例如 `node yourfile.js`。
